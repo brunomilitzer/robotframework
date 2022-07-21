@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220721 16:17:53.821" rpa="false" schemaversion="3">
+<suite id="s1" name="Locators" source="C:\Users\brunomilitzer\PycharmProjects\Training\robotframework\locators\tests\locators.robot">
+<test id="s1-t1" name="Should be able to search for product" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.amazon.co.uk</arg>
+<arg>gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220721 16:17:54.042" level="INFO">Opening browser 'gc' to base url 'http://www.amazon.co.uk'.</msg>
+<status status="PASS" starttime="20220721 16:17:54.042" endtime="20220721 16:17:57.093"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:00.107" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:17:57.094" endtime="20220721 16:18:00.107"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css=#sp-cc-accept</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220721 16:18:00.108" level="INFO">Clicking button 'css=#sp-cc-accept'.</msg>
+<status status="PASS" starttime="20220721 16:18:00.108" endtime="20220721 16:18:00.222"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:03.228" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:00.222" endtime="20220721 16:18:03.228"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=twotabsearchtextbox</arg>
+<arg>SanDisk 128GB</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220721 16:18:03.228" level="INFO">Typing text 'SanDisk 128GB' into text field 'id=twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20220721 16:18:03.228" endtime="20220721 16:18:03.417"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:06.426" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:03.418" endtime="20220721 16:18:06.426"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css=#nav-search-submit-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220721 16:18:06.427" level="INFO">Clicking button 'css=#nav-search-submit-button'.</msg>
+<status status="PASS" starttime="20220721 16:18:06.426" endtime="20220721 16:18:07.795"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:10.810" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:07.796" endtime="20220721 16:18:10.810"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>css=#search &gt; div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row &gt; div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 &gt; div &gt; span:nth-child(4) &gt; div.s-main-slot.s-result-list.s-search-results.sg-row &gt; div:nth-child(6) &gt; div &gt; div &gt; div &gt; div &gt; div &gt; div.sg-col.sg-col-4-of-12.sg-col-8-of-16.sg-col-12-of-20.s-list-col-right &gt; div &gt; div &gt; div.a-section.a-spacing-none.s-padding-right-small.s-title-instructions-style &gt; h2 &gt; a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20220721 16:18:10.812" level="INFO">Clicking link 'css=#search &gt; div.s-desktop-width-max.s-desktop-content.s-opposite-dir.sg-row &gt; div.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 &gt; div &gt; span:nth-child(4) &gt; div.s-main-slot.s-result-list.s-search-results.sg-row &gt; div:nth-child(6) &gt; div &gt; div &gt; div &gt; div &gt; div &gt; div.sg-col.sg-col-4-of-12.sg-col-8-of-16.sg-col-12-of-20.s-list-col-right &gt; div &gt; div &gt; div.a-section.a-spacing-none.s-padding-right-small.s-title-instructions-style &gt; h2 &gt; a'.</msg>
+<status status="PASS" starttime="20220721 16:18:10.811" endtime="20220721 16:18:14.766"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:17.777" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:14.768" endtime="20220721 16:18:17.777"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220721 16:18:17.777" endtime="20220721 16:18:20.028"/>
+</kw>
+<status status="PASS" starttime="20220721 16:17:54.041" endtime="20220721 16:18:20.029"/>
+</test>
+<test id="s1-t2" name="Should be able to click on free delivery image" line="20">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.amazon.co.uk</arg>
+<arg>gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220721 16:18:20.031" level="INFO">Opening browser 'gc' to base url 'http://www.amazon.co.uk'.</msg>
+<status status="PASS" starttime="20220721 16:18:20.030" endtime="20220721 16:18:23.341"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:26.349" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:23.342" endtime="20220721 16:18:26.349"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css=#sp-cc-accept</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220721 16:18:26.350" level="INFO">Clicking button 'css=#sp-cc-accept'.</msg>
+<status status="PASS" starttime="20220721 16:18:26.350" endtime="20220721 16:18:26.477"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:29.482" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:26.478" endtime="20220721 16:18:29.482"/>
+</kw>
+<kw name="Click Image" library="SeleniumLibrary">
+<arg>Free delivery on your first order</arg>
+<doc>Clicks an image identified by ``locator``.</doc>
+<msg timestamp="20220721 16:18:29.483" level="INFO">Clicking image 'Free delivery on your first order'.</msg>
+<status status="PASS" starttime="20220721 16:18:29.482" endtime="20220721 16:18:30.122"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220721 16:18:33.129" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220721 16:18:30.122" endtime="20220721 16:18:33.129"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220721 16:18:33.129" endtime="20220721 16:18:35.373"/>
+</kw>
+<status status="PASS" starttime="20220721 16:18:20.030" endtime="20220721 16:18:35.373"/>
+</test>
+<status status="PASS" starttime="20220721 16:17:53.823" endtime="20220721 16:18:35.374"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Locators">Locators</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
